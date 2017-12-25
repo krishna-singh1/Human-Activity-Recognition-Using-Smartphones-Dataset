@@ -1,5 +1,3 @@
-setwd("E:/mine/[Coursera Specialization] Data Science by Roger D. Peng, Jeff Leek, Brian Caffo/3. Getting and Cleaning Data/project")
-
 activityLabels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 activityLabels[,2] <- as.character(activityLabels[,2] )
 
